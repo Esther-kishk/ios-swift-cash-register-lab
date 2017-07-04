@@ -1,7 +1,7 @@
 ## Cash Register
 
 ###### Task
-Open up the Xcode playground [here](https://github.com/upperlinecode/intro-to-swift/tree/master/day-1/CashRegister.playground). Follow the instructions at the top of the page to create a cash register that will calculate the price of a purchase of apples.
+Clone and forth this repo. Follow the instructions at the top of the page to create a cash register that will calculate the price of a purchase of apples.
   - A purchase of less than 5 apples costs 50 cents per apple.
   - A purchase of between 6 and 24 apples costs 40 cents per apple.
   - Any purchase of more than 25 apples costs a flat fee of $10.00
