@@ -9,21 +9,30 @@ import UIKit
 
 var pricePerApple: Double = 0.0
 
-var numberOfItems: Int // = set this to different values to test the conditional
+var numberOfItems: Double  = 30.0
 
 var totalCost: Double
 
 //write conditional statement here to calculate the correct total cost
 
+if numberOfItems<5 {
+    pricePerApple = 0.5
+}
+else if numberOfItems < 25 && numberOfItems > 5 {
+    pricePerApple = 0.4
+}
+else {
+numberOfItems = 1
+pricePerApple = 10.0
+}
 
-
-
-
+totalCost = (numberOfItems * pricePerApple)
 
 
 //print a message to the customer telling them the total cost of their purchase
-message // = ___
-print(message)
+
+
+print ("You Spent $\(totalCost)")
 
 
 
@@ -52,8 +61,8 @@ numberOfItems // = set this to different values to test the conditional
 
 
 //print a message to the customer telling them the total cost of their purchase
-message // = ___
-print(message)
+// message // = ___
+// print(message)
 
 
 
@@ -79,8 +88,8 @@ numberOfItems // = set this to different values to test the conditional
 
 
 //print a message to the customer telling them the total cost of their purchase
-message // = ___
-print(message)
+// message // = ___
+// print(message)
 
 
 
